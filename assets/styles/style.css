@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avalia {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+}
+
+nav {
+    background-color: #B20000;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #B20000;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+footer img {
+    width: 15%;
+}
+
+.endereco {
+    color: white;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.endereco p {
+    padding: 5px;
+}
+
+.contato {
+    color: white;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.contato p {
+    padding: 5px;
+}
+
+.contato {
+    margin-bottom: 15px;
+}
