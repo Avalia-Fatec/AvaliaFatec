@@ -12,17 +12,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jQTBs9/CZjfKi5EulQqyWX/0yOXxDmhc15IodrFQ10w="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jQTBs9/CZjfKi5EulQqyWX/0yOXxDmhc15IodrFQ10w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 11:50:14 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/cadastro.85e5kauk0i.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cadastro.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/avaliacao.5ldxl1zuqj.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\avaliacao.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"85e5kauk0i"},{"Name":"integrity","Value":"sha256-3LLn1LzRg2lSGPeFUYCaIdneDCbisc1KGiy93YsfDuI="},{"Name":"label","Value":"_content/AvaliaFatec/css/cadastro.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1260"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223LLn1LzRg2lSGPeFUYCaIdneDCbisc1KGiy93YsfDuI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 11:43:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ldxl1zuqj"},{"Name":"integrity","Value":"sha256-CUwdRHB3nd8l6LgTPn6NlGT27ivOoIPI23Vdd7SCHZg="},{"Name":"label","Value":"_content/AvaliaFatec/css/avaliacao.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"633"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CUwdRHB3nd8l6LgTPn6NlGT27ivOoIPI23Vdd7SCHZg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 14:28:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/avaliacao.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\avaliacao.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CUwdRHB3nd8l6LgTPn6NlGT27ivOoIPI23Vdd7SCHZg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"633"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CUwdRHB3nd8l6LgTPn6NlGT27ivOoIPI23Vdd7SCHZg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 14:28:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/cadastro.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cadastro.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3LLn1LzRg2lSGPeFUYCaIdneDCbisc1KGiy93YsfDuI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1260"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223LLn1LzRg2lSGPeFUYCaIdneDCbisc1KGiy93YsfDuI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 11:43:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2H563/IWS\u002B8Ma45djxPk/A5uxuwY2kCmb8gLDQALwz0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1340"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222H563/IWS\u002B8Ma45djxPk/A5uxuwY2kCmb8gLDQALwz0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 15:04:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/cadastro.k510l5hkus.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cadastro.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k510l5hkus"},{"Name":"integrity","Value":"sha256-2H563/IWS\u002B8Ma45djxPk/A5uxuwY2kCmb8gLDQALwz0="},{"Name":"label","Value":"_content/AvaliaFatec/css/cadastro.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1340"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222H563/IWS\u002B8Ma45djxPk/A5uxuwY2kCmb8gLDQALwz0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 15:04:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/home.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</AssetFile>
@@ -63,14 +75,14 @@
     <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vj2hlgqyPq0xvfk0ZlzVdIvRQYX\u002B4trpDsArnpxwXSQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"869"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vj2hlgqyPq0xvfk0ZlzVdIvRQYX\u002B4trpDsArnpxwXSQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 12:12:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YJxY8jeA3ie2W9O9sekOV2o7zJwzCLck0zDR5idydsU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"912"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YJxY8jeA3ie2W9O9sekOV2o7zJwzCLck0zDR5idydsU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 14:31:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/style.qxgc9hh71i.css">
+    <StaticWebAssetEndpoint Include="_content/AvaliaFatec/css/style.kfbv4pp4n2.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qxgc9hh71i"},{"Name":"integrity","Value":"sha256-vj2hlgqyPq0xvfk0ZlzVdIvRQYX\u002B4trpDsArnpxwXSQ="},{"Name":"label","Value":"_content/AvaliaFatec/css/style.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"869"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022vj2hlgqyPq0xvfk0ZlzVdIvRQYX\u002B4trpDsArnpxwXSQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 29 May 2025 12:12:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kfbv4pp4n2"},{"Name":"integrity","Value":"sha256-YJxY8jeA3ie2W9O9sekOV2o7zJwzCLck0zDR5idydsU="},{"Name":"label","Value":"_content/AvaliaFatec/css/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"912"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YJxY8jeA3ie2W9O9sekOV2o7zJwzCLck0zDR5idydsU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 14:31:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AvaliaFatec/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

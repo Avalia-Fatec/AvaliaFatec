@@ -1,5 +1,5 @@
 ﻿form {
-    background-color: #f5f0ec; /* cor de fundo do formulário */
+    background-color: #f5f0ec; 
     border: 2px solid #a80000;
     border-radius: 20px;
     padding: 30px;
@@ -66,4 +66,11 @@ h1, h4 {
     cursor: pointer;
     color: #990000;
     font-size: 1.2rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    flex-direction: row;
 }

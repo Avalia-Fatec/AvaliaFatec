@@ -45,5 +45,13 @@ namespace AvaliaFatec.Models
                 return _database.GetCollection<Coordenador>("Coordenador");
             }
         }
+
+        public IMongoCollection<Avaliacao> Avaliacao
+        {
+            get
+            {
+                return _database.GetCollection<Avaliacao>("Avaliacao");
+            }
+        }
     }
 }

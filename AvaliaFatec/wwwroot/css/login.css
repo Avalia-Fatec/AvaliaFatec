@@ -1,0 +1,50 @@
+﻿/*.enviar, .limpar {
+    background-color: #B20000;
+    color: white;
+    border-radius: 30px;
+    width: 100px; 
+    margin: 5px;
+}
+h1{
+    font-size: 28px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.label_email, .label_senha {
+    font-size: 26px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.label_email, .email, .label_senha, .senha {
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 3px solid #b20000;
+    width: 500px;
+    padding: 20px;
+}
+
+.email, .senha {
+    border-radius: 30px;
+    height: 35px;
+    padding: 0 15px;
+    border: 2px solid #b20000;
+}
+.email {
+    width: 500px;
+}
+.senha {
+    width: 300px;
+}
+*/

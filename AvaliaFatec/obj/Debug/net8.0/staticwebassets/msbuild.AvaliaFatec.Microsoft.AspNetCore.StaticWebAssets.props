@@ -18,6 +18,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AvaliaFatec.7nf9g11ys5.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\avaliacao.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AvaliaFatec</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AvaliaFatec</BasePath>
+      <RelativePath>css/avaliacao.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5ldxl1zuqj</Fingerprint>
+      <Integrity>CUwdRHB3nd8l6LgTPn6NlGT27ivOoIPI23Vdd7SCHZg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\avaliacao.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cadastro.css'))">
       <SourceType>Package</SourceType>
       <SourceId>AvaliaFatec</SourceId>
@@ -30,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>85e5kauk0i</Fingerprint>
-      <Integrity>3LLn1LzRg2lSGPeFUYCaIdneDCbisc1KGiy93YsfDuI=</Integrity>
+      <Fingerprint>k510l5hkus</Fingerprint>
+      <Integrity>2H563/IWS+8Ma45djxPk/A5uxuwY2kCmb8gLDQALwz0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\cadastro.css'))</OriginalItemSpec>
@@ -102,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qxgc9hh71i</Fingerprint>
-      <Integrity>vj2hlgqyPq0xvfk0ZlzVdIvRQYX+4trpDsArnpxwXSQ=</Integrity>
+      <Fingerprint>kfbv4pp4n2</Fingerprint>
+      <Integrity>YJxY8jeA3ie2W9O9sekOV2o7zJwzCLck0zDR5idydsU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>

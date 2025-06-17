@@ -1,0 +1,38 @@
+﻿.botao1, .botao2, .botao3{
+    background-color: white;   
+}
+
+.texto{
+    color: black;
+}
+
+.botao1:hover {
+    background-color: #D4EDDA;
+    border: 2px solid #28A745;
+}
+
+.botao2:hover {
+    background-color: #FFF3CD;
+    border: 2px solid #FFC107;
+}
+
+.botao3:hover {
+    background-color: #F8D7DA;
+    border: 2px solid #DC3545;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 2px solid #cccccc;
+}
+
+.emoji-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<AvaliaFatec.Models.Pergunta>
+
+@{
+    ViewData["Title"] = "Avaliar Perguntas";
+}
+
+<h1 class="mb-4">Avaliar Perguntas</h1>
+
+@if (!Model.Any())
+{
+    <p>Não há perguntas cadastradas no momento.</p>
+}
+else
+{
+    foreach (var pergunta in Model)
+    {
+        <div class="card mb-4 p-3">
+            <h5>@pergunta.Conteudo</h5>
+
+            <form asp-action="Create" asp-controller="Avaliacoes" method="post" class="mt-3">
+                @Html.AntiForgeryToken()
+
+                <input type="hidden" name="PerguntaId" value="@pergunta.Id" />
+                <input type="hidden" name="Emoji" id="emoji-@pergunta.Id" />
+
+                <div class="emoji-buttons mt-3">
+                    <button type="button" onclick="setEmoji('@pergunta.Id', '😀')" class="btn botao1">
+                        <img src="~/img/feliz.png" alt="Satisfeito" width="60" />
+                        <p class="texto">Satisfeito</p>
+                    </button>
+                    <button type="button" onclick="setEmoji('@pergunta.Id', '😐')" class="btn botao2">
+                        <img src="~/img/neutro.png" alt="Neutro" width="60" />
+                        <p class="texto">Neutro</p>
+                    </button>
+                    <button type="button" onclick="setEmoji('@pergunta.Id', '😞')" class="btn botao3">
+                        <img src="~/img/triste.png" alt="Insatisfeito" width="60" />
+                        <p class="texto">Insatisfeito</p>
+                    </button>
+                </div>
+            </form>
+        </div>
+    }
+}
+
+@section Scripts {
+    <script>
+        function setEmoji(perguntaId, emoji) {
+            const input = document.getElementById("emoji-" + perguntaId);
+            input.value = emoji;
+            input.closest("form").submit();
+        }
+    </script>
+}

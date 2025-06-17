@@ -11,11 +11,12 @@
     <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/logar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/avaliacao.css" asp-append-version="true" />
     <script src="~/js/site.js"></script>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger px-4">
+        <nav class="navbar navbar-expand-lg navbar-dark px-4">
             <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">AvaliaFatec</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -48,6 +49,9 @@
                     {
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Account" asp-action="Login">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Avaliacoes" asp-action="Index">Avaliar</a>
                         </li>
                     }
                 </ul>

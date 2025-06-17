@@ -1,54 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\",
+  "WorkspaceRootPath": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\wwwroot\\css\\logar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\wwwroot\\css\\logar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\views\\coordenadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\coordenadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\controllers\\coordenadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\controllers\\coordenadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\coordenadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\models\\coordenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\models\\coordenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\models\\coordenador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\views\\coordenadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\coordenadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\perguntascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\views\\coordenadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\views\\coordenadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\coordenadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-antigo\\avaliafatec\\views\\coordenadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec-semrole\\avaliafatec\\views\\coordenadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\coordenadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaliaFatec\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,22 +63,10 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "logar.css",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\wwwroot\\css\\logar.css",
-              "RelativeDocumentMoniker": "AvaliaFatec\\wwwroot\\css\\logar.css",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\wwwroot\\css\\logar.css",
-              "RelativeToolTip": "AvaliaFatec\\wwwroot\\css\\logar.css",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwD4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-22T13:09:58.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Coordenador.cs",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Models\\Coordenador.cs",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Models\\Coordenador.cs",
               "RelativeDocumentMoniker": "AvaliaFatec\\Models\\Coordenador.cs",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Models\\Coordenador.cs",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Models\\Coordenador.cs",
               "RelativeToolTip": "AvaliaFatec\\Models\\Coordenador.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,60 +74,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "AvaliaFatec\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-20T00:05:21.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Coordenadores\\Create.cshtml",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Coordenadores\\Create.cshtml",
               "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Coordenadores\\Create.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Coordenadores\\Create.cshtml",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Coordenadores\\Create.cshtml",
               "RelativeToolTip": "AvaliaFatec\\Views\\Coordenadores\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-18T19:40:33.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "style.css",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\wwwroot\\css\\style.css",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "AvaliaFatec\\wwwroot\\css\\style.css",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\wwwroot\\css\\style.css",
               "RelativeToolTip": "AvaliaFatec\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-18T19:28:15.453Z",
+              "WhenOpened": "2025-05-18T19:28:15.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoordenadoresController.cs",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Controllers\\CoordenadoresController.cs",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\CoordenadoresController.cs",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Controllers\\CoordenadoresController.cs",
+              "RelativeToolTip": "AvaliaFatec\\Controllers\\CoordenadoresController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:52:03.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CoordenadoresController.cs",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Controllers\\CoordenadoresController.cs",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\CoordenadoresController.cs",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Controllers\\CoordenadoresController.cs",
-              "RelativeToolTip": "AvaliaFatec\\Controllers\\CoordenadoresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T18:52:03.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Controllers\\AccountController.cs",
               "RelativeToolTip": "AvaliaFatec\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAgwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "PerguntasController.cs",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Controllers\\PerguntasController.cs",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Controllers\\PerguntasController.cs",
               "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\PerguntasController.cs",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Controllers\\PerguntasController.cs",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Controllers\\PerguntasController.cs",
               "RelativeToolTip": "AvaliaFatec\\Controllers\\PerguntasController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwBoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -159,11 +147,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Pergunta.cs",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Models\\Pergunta.cs",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Models\\Pergunta.cs",
               "RelativeDocumentMoniker": "AvaliaFatec\\Models\\Pergunta.cs",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Models\\Pergunta.cs",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Models\\Pergunta.cs",
               "RelativeToolTip": "AvaliaFatec\\Models\\Pergunta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,23 +159,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "AvaliaFatec\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "AvaliaFatec\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-20T00:00:39.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "AvaliaFatec\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-18T19:27:49.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Coordenadores\\Delete.cshtml",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Coordenadores\\Delete.cshtml",
               "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Coordenadores\\Delete.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Coordenadores\\Delete.cshtml",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Coordenadores\\Delete.cshtml",
               "RelativeToolTip": "AvaliaFatec\\Views\\Coordenadores\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -195,11 +195,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Coordenadores\\Edit.cshtml",
+              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Coordenadores\\Edit.cshtml",
               "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Coordenadores\\Edit.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-antigo\\AvaliaFatec\\Views\\Coordenadores\\Edit.cshtml",
+              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec-semRole\\AvaliaFatec\\Views\\Coordenadores\\Edit.cshtml",
               "RelativeToolTip": "AvaliaFatec\\Views\\Coordenadores\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

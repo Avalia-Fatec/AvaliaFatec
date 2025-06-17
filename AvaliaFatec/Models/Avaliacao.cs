@@ -8,10 +8,7 @@ namespace AvaliaFatec.Models
         public Guid Id { get; set; }
         [Required]
         public string? Emoji { get; set; }
-        [Required]
-        public DateTime Data { get; set; }
-        [Required]
-        [Display(Name = "ID da Pergunta")]
+        public DateTime? Data { get; set; }
         public Guid PerguntaId { get; set; }
     }
 }

@@ -1,3 +1,4 @@
+wwwroot\css\avaliacao.css
 wwwroot\css\cadastro.css
 wwwroot\css\home.css
 wwwroot\css\logar.css

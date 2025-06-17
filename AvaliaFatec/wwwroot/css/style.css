@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.nav {
+.navbar {
     background-color: #B20000;
 }
 
@@ -50,4 +49,8 @@ footer {
     color: white;
     padding-top: 5px;
     font-size: 14px;
+}
+
+.card-body {
+    padding: 1rem 2rem;
 }
