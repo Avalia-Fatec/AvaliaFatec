@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/logar.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/avaliacao.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/grafico.css" asp-append-version="true" />
     <script src="~/js/site.js"></script>
 </head>
 <body>
@@ -27,15 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                     </li>
-
+                    <partial name="_LoginAdmin.cshtml" />
                     @if (User?.Identity?.IsAuthenticated ?? false)
                     {
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Coordenadores" asp-action="Create">Cadastrar Coordenadores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Perguntas" asp-action="Index">Cadastrar Perguntas</a>
-                        </li>
                         <li class="nav-item d-flex align-items-center text-white mx-2">
                             <span>Olá, <strong>@User.Identity.Name</strong></span>
                         </li>

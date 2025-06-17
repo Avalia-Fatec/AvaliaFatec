@@ -1,0 +1,44 @@
+﻿.meu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start; /* Alinha à esquerda */
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.grafico-box {
+    flex: 1 1 320px; /* Cresce, mas respeita o mínimo */
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+    .grafico-box:hover {
+        transform: scale(1.02);
+    }
+
+    .grafico-box h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+/* ApexCharts legenda personalizada */
+.apexcharts-legend {
+    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.apexcharts-legend-text {
+    font-size: 14px !important;
+    color: #444 !important;
+}

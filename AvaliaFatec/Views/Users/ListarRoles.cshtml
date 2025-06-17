@@ -1,0 +1,44 @@
+﻿@model IEnumerable<AvaliaFatec.Models.ApplicationRole>
+
+@{
+    ViewData["Title"] = "Lista de Roles";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <a class="btn btn-success" asp-action="CreateRole">
+            <i class="bi bi-plus-circle"></i> Nova Role
+        </a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-header bg-success text-white">
+            Roles Cadastradas
+        </div>
+        <div class="card-body">
+            <table class="table table-hover table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.RoleName)</th>
+                        <th class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var role in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => role.Name)</td>
+                            <td class="text-center">
+                                <a class="btn btn-danger btn-sm" asp-action="DeleteRole" asp-route-id="@role.Id">
+                                    <i class="bi bi-trash"></i> Deletar
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

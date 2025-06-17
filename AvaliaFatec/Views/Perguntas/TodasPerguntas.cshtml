@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AvaliaFatec.Models.Pergunta>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Perguntas</h1>
+<div class="container mt-4">
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-success text-white">
+            Perguntas Cadastradas
+        </div>
+        <div class="card-body">
+            <table class="table table-hover table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Conteudo)</th>
+                        <th>@Html.DisplayNameFor(model => model.DataPostagem)</th>
+                        <th>@Html.DisplayNameFor(model => model.Status)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Conteudo)</td>
+                            <td>@Html.DisplayFor(modelItem => item.DataPostagem)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -15,7 +15,7 @@ namespace AvaliaFatec.Data
         }
 
         public DbSet<AvaliaFatec.Models.Pergunta> Pergunta { get; set; } = default!;
-        public DbSet<AvaliaFatec.Models.Coordenador> Coordenador { get; set; } = default!;
         public DbSet<AvaliaFatec.Models.Avaliacao> Avaliacao { get; set; } = default!;
+        public DbSet<AvaliaFatec.Models.User> User { get; set; } = default!;
     }
 }

@@ -8,22 +8,30 @@ using Microsoft.EntityFrameworkCore;
 using AvaliaFatec.Data;
 using AvaliaFatec.Models;
 using MongoDB.Driver;
+using MongoDB.Bson;
+using System.Text.Json;
+using Microsoft.AspNetCore.Identity;
 
 namespace AvaliaFatec.Controllers
 {
     public class AvaliacoesController : Controller
     {
         ContextMongodb _context = new ContextMongodb();
+        private UserManager<ApplicationUser> _userManager;
 
-        public AvaliacoesController(ContextMongodb context)
+        public AvaliacoesController(ContextMongodb context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         public async Task<IActionResult> Index()
         {
-            var perguntas = await _context.Pergunta.Find(_ => true).ToListAsync();
-            return View(perguntas);
+            var perguntasDisponiveis = await _context.Pergunta
+                .Find(p => p.Status == "Disponível")
+                .ToListAsync();
+
+            return View(perguntasDisponiveis);
         }
 
         // GET: Avaliacoes/Create
@@ -53,5 +61,70 @@ namespace AvaliaFatec.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public async Task<IActionResult> Grafico()
+        {
+            var userId = _userManager.GetUserId(User);
+
+            // Busca as perguntas do coordenador logado
+            var perguntas = await _context.Pergunta
+                .Find(p => p.IdCoordenador == userId)
+                .ToListAsync();
+
+            var graficos = new List<object>();
+
+            foreach (var pergunta in perguntas)
+            {
+                var pipeline = new[]
+                {
+                    new BsonDocument("$match", new BsonDocument("PerguntaId", pergunta.Id)),
+                    new BsonDocument("$group", new BsonDocument
+                    {
+                        { "_id", BsonNull.Value },
+                        { "satisfeito", new BsonDocument("$sum", new BsonDocument("$cond", new BsonArray
+                            {
+                                new BsonDocument("$eq", new BsonArray { "$Emoji", "Satisfeito" }),
+                                1,
+                                0
+                            }))
+                        },
+                        { "neutro", new BsonDocument("$sum", new BsonDocument("$cond", new BsonArray
+                            {
+                                new BsonDocument("$eq", new BsonArray { "$Emoji", "Neutro" }),
+                                1,
+                                0
+                            }))
+                        },
+                        { "insatisfeito", new BsonDocument("$sum", new BsonDocument("$cond", new BsonArray
+                            {
+                                new BsonDocument("$eq", new BsonArray { "$Emoji", "Insatisfeito" }),
+                                1,
+                                0
+                            }))
+                        }
+                    })
+                };
+
+                var result = await _context.Avaliacao.AggregateAsync<BsonDocument>(pipeline);
+                var data = await result.FirstOrDefaultAsync();
+
+                var categorias = new[] { "Satisfeito", "Neutro", "Insatisfeito" };
+                var valores = new[]
+                {
+                    data?["satisfeito"].AsInt32 ?? 0,
+                    data?["neutro"].AsInt32 ?? 0,
+                    data?["insatisfeito"].AsInt32 ?? 0
+                };
+
+                graficos.Add(new
+                {
+                    Pergunta = pergunta.Conteudo,
+                    Categorias = categorias,
+                    Valores = valores
+                });
+            }
+
+            ViewBag.Graficos = graficos;
+            return View();
+        }
     }
 }

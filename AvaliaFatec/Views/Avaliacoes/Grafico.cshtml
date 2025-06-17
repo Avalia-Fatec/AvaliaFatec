@@ -1,0 +1,67 @@
+﻿@using System.Text.Json
+@{
+    ViewData["Title"] = "Charts";
+    var graficos = ViewBag.Graficos as IEnumerable<dynamic>;
+}
+
+<h1 class="mb-4">Respostas</h1>
+
+@if (graficos == null || !graficos.Any())
+{
+    <p>Não há respostas no momento.</p>
+}
+else{
+    <section class="meu-container">
+        @{
+            int index = 0;
+            foreach (var grafico in ViewBag.Graficos)
+            {
+                <div class="grafico-box">
+                    <h3>@grafico.Pergunta</h3>
+                    <div id="chartPie@(index)"></div>
+                </div>
+                index++;
+            }
+        }
+    </section>
+
+    @section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+        var graficos = @Html.Raw(JsonSerializer.Serialize(ViewBag.Graficos));
+
+        graficos.forEach((grafico, index) => {
+            var cores = grafico.Categorias.map(c => {
+                if (c === "Satisfeito") return "#28a745";
+                if (c === "Neutro") return "#ffc107";
+                if (c === "Insatisfeito") return "#dc3545";
+                return "#999999";
+            });
+
+            var options = {
+                series: grafico.Valores,
+                chart: {
+                    height: 350,
+                    type: 'pie',
+                },
+                labels: grafico.Categorias,
+                colors: cores,
+                responsive: [{
+                    breakpoint: 480,
+                    options: {
+                        chart: {
+                            width: 200
+                        },
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }]
+            };
+
+            var chart = new ApexCharts(document.querySelector("#chartPie" + index), options);
+            chart.render();
+        });
+    </script>
+}
+}

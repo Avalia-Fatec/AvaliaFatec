@@ -1,5 +1,6 @@
 wwwroot\css\avaliacao.css
 wwwroot\css\cadastro.css
+wwwroot\css\grafico.css
 wwwroot\css\home.css
 wwwroot\css\logar.css
 wwwroot\css\site.css

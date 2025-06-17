@@ -27,28 +27,15 @@ namespace AvaliaFatec.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = _userManager.GetUserId(User);
-            return View(await _context.Pergunta.Find(p => p.CoordenadorId == userId).ToListAsync());
+            return View(await _context.Pergunta.Find(p => p.IdCoordenador == userId).ToListAsync());
         }
 
-        // GET: Perguntas/Details/5
-        public async Task<IActionResult> Details(Guid? id)
+        public async Task<IActionResult> TodasPerguntas()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var pergunta = await _context.Pergunta
-              .Find(m => m.Id == id).FirstOrDefaultAsync();
-            if (pergunta == null)
-            {
-                return NotFound();
-            }
-
-            return View(pergunta);
+            var perguntas = await _context.Pergunta.Find(_ => true).ToListAsync();
+            return View(perguntas);
         }
 
-        // GET: Perguntas/Create
         public IActionResult Create(string status)
         {
             Pergunta pergunta = new Pergunta();
@@ -66,7 +53,8 @@ namespace AvaliaFatec.Controllers
             if (ModelState.IsValid)
             {
                 pergunta.Id = Guid.NewGuid();
-                pergunta.CoordenadorId = _userManager.GetUserId(User);
+                pergunta.IdCoordenador = _userManager.GetUserId(User);
+                pergunta.DataPostagem = DateTime.UtcNow.AddHours(-3);
                 await _context.Pergunta.InsertOneAsync(pergunta);
                 return RedirectToAction(nameof(Index));
             }
@@ -93,9 +81,10 @@ namespace AvaliaFatec.Controllers
         // POST: Perguntas/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Perguntas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Conteudo,DataPostagem,Status,CoordenadorId")] Pergunta pergunta)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Conteudo,Status,CoordenadorId")] Pergunta pergunta)
         {
             if (id != pergunta.Id)
             {
@@ -106,7 +95,21 @@ namespace AvaliaFatec.Controllers
             {
                 try
                 {
-                    await _context.Pergunta.ReplaceOneAsync(m => m.Id == pergunta.Id, pergunta);
+                    var perguntaOriginal = await _context.Pergunta.Find(p => p.Id == id).FirstOrDefaultAsync();
+
+                    if (perguntaOriginal == null)
+                    {
+                        return NotFound();
+                    }
+
+                    pergunta.DataPostagem = perguntaOriginal.DataPostagem;
+
+                    if (string.IsNullOrEmpty(pergunta.IdCoordenador))
+                    {
+                        pergunta.IdCoordenador = _userManager.GetUserId(User);
+                    }
+
+                    await _context.Pergunta.ReplaceOneAsync(p => p.Id == id, pergunta);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -123,6 +126,8 @@ namespace AvaliaFatec.Controllers
             }
             return View(pergunta);
         }
+
+
 
         // GET: Perguntas/Delete/5
         public async Task<IActionResult> Delete(Guid? id)
@@ -147,6 +152,7 @@ namespace AvaliaFatec.Controllers
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             await _context.Pergunta.DeleteOneAsync(u => u.Id == id);
+            await _context.Avaliacao.DeleteManyAsync(p => p.PerguntaId == id);
             return RedirectToAction(nameof(Index));
         }
 
@@ -156,3 +162,4 @@ namespace AvaliaFatec.Controllers
         }
     }
 }
+

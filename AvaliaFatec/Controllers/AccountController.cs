@@ -8,48 +8,42 @@ namespace AvaliaFatec.Controllers
 {
     public class AccountController : Controller
     {
-        //criando um tipo de verificação
-        private UserManager<ApplicationUser> _UserManager;
-        //criando a verificação para conseguir fazer o login
-        private SignInManager<ApplicationUser> _signInManager;
+        private UserManager<ApplicationUser>? _userManager;
+        private SignInManager<ApplicationUser>? _signInManager;
 
-        // criando o metodo construtor dessa classe
         public AccountController(UserManager<ApplicationUser> userManager,
                                  SignInManager<ApplicationUser> signInManager)
         {
-            this._UserManager = userManager;
+            this._userManager = userManager;
             this._signInManager = signInManager;
         }
-        //mudando o index para login
+
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(Coordenador model)
+        public async Task<IActionResult> Login(User user)
         {
             if (ModelState.IsValid)
             {
-                var user = await _UserManager.FindByEmailAsync(model.Email);
-                if (user != null)
+                var appUser = await _userManager.FindByEmailAsync(user.Email);
+                if (appUser != null)
                 {
-                    var result = await _signInManager.PasswordSignInAsync(user, model.Senha, false, false);
+                    var result = await _signInManager.PasswordSignInAsync(appUser, user.Senha, false, false);
                     if (result.Succeeded)
                     {
                         return RedirectToAction("Index", "Home");
                     }
+                }
 
-                    ModelState.AddModelError(string.Empty, "Credenciais inválidas");
-                }
-                else
-                {
-                    ModelState.AddModelError(string.Empty, "Usuário não encontrado");
-                }
+                ModelState.AddModelError(string.Empty, "Credenciais inválidas.");
             }
 
-            return View(model);
+            return View(user);
         }
+
         //criando o método logout
         public async Task<IActionResult> Logout()
         {

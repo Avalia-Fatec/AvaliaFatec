@@ -19,18 +19,14 @@
 
                         <div class="mb-3">
                             <label asp-for="Conteudo" class="control-label"></label>
-                            <input asp-for="Conteudo" class="form-control" />
+                            <textarea asp-for="Conteudo" class="form-control" rows="4"></textarea>
                             <span asp-validation-for="Conteudo" class="text-danger"></span>
                         </div>
-
-                        <div class="mb-3">
-                            <label asp-for="DataPostagem" class="control-label"></label>
-                            <input asp-for="DataPostagem" class="form-control" />
-                            <span asp-validation-for="DataPostagem" class="text-danger"></span>
-                        </div>
-
                         <div class="mb-3">
                             <input asp-for="Status" class="form-control" type="hidden" value="@Model.Status" />
+                        </div>
+                        <div class="mb-3">
+                            <input asp-for="DataPostagem" class="form-control" type="hidden" value="@Model.DataPostagem" />
                         </div>
 
                         <div class="d-flex justify-content-between">

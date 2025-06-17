@@ -1,24 +1,36 @@
-﻿.botao1, .botao2, .botao3{
-    background-color: white;   
+﻿/* Botões de Emoji */
+.botao1, .botao2, .botao3 {
+    background-color: #f9f9f9;
+    width: 120px;
+    height: 140px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
 }
 
-.texto{
+    .botao1:hover {
+        background-color: #D4EDDA;
+        border-color: #28A745;
+    }
+
+    .botao2:hover {
+        background-color: #FFF3CD;
+        border-color: #FFC107;
+    }
+
+    .botao3:hover {
+        background-color: #F8D7DA;
+        border-color: #DC3545;
+    }
+
+.texto {
     color: black;
-}
-
-.botao1:hover {
-    background-color: #D4EDDA;
-    border: 2px solid #28A745;
-}
-
-.botao2:hover {
-    background-color: #FFF3CD;
-    border: 2px solid #FFC107;
-}
-
-.botao3:hover {
-    background-color: #F8D7DA;
-    border: 2px solid #DC3545;
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 form {
@@ -27,6 +39,7 @@ form {
     padding: 1rem;
     background-color: #f9f9f9;
     border: 2px solid #cccccc;
+    border-radius: 8px;
 }
 
 .emoji-buttons {
@@ -35,4 +48,11 @@ form {
     gap: 2rem;
     flex-wrap: wrap;
     text-align: center;
+}
+
+
+.emoji-buttons img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
 }

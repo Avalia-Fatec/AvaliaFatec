@@ -17,24 +17,24 @@
                     </p>
 
                     <dl class="row mb-4">
-                        <dt class="col-sm-3">
+                        <dt class="col-sm-4 mb-3">
                             @Html.DisplayNameFor(model => model.Conteudo)
                         </dt>
-                        <dd class="col-sm-9">
+                        <dd class="col-sm-8 mb-3">
                             @Html.DisplayFor(model => model.Conteudo)
                         </dd>
 
-                        <dt class="col-sm-3">
+                        <dt class="col-sm-4 mb-3">
                             @Html.DisplayNameFor(model => model.DataPostagem)
                         </dt>
-                        <dd class="col-sm-9">
+                        <dd class="col-sm-8 mb-3">
                             @Html.DisplayFor(model => model.DataPostagem)
                         </dd>
 
-                        <dt class="col-sm-3">
+                        <dt class="col-sm-4 mb-3">
                             @Html.DisplayNameFor(model => model.Status)
                         </dt>
-                        <dd class="col-sm-9">
+                        <dd class="col-sm-8 mb-3">
                             @Html.DisplayFor(model => model.Status)
                         </dd>
                     </dl>
@@ -43,9 +43,9 @@
                         <input type="hidden" asp-for="Id" />
 
                         <div class="d-flex justify-content-between">
-                            <a asp-action="Index" class="btn btn-secondary">
-                                <i class="bi bi-arrow-left"></i> Cancelar
-                            </a>
+                             <a asp-action="TodasPerguntas" class="btn btn-secondary">
+                                 <i class="bi bi-arrow-left"></i> Cancelar
+                             </a>
                             <button type="submit" class="btn btn-danger">
                                 <i class="bi bi-trash"></i> Excluir
                             </button>

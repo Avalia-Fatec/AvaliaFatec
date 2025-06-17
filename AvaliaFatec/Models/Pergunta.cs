@@ -12,6 +12,6 @@ namespace AvaliaFatec.Models
         [Display(Name = "Data da Postagem")]
         public DateTime DataPostagem { get; set; }
         public string? Status { get; set; }
-        public string? CoordenadorId { get; set; }
+        public string? IdCoordenador { get; set; }
     }
 }
