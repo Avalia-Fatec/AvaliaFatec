@@ -1,0 +1,55 @@
+﻿@model AvaliaFatec.Models.Pergunta
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Nova Pergunta</h1>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card shadow-sm">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Criar Pergunta</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Conteudo" class="control-label"></label>
+                            <input asp-for="Conteudo" class="form-control" />
+                            <span asp-validation-for="Conteudo" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="DataPostagem" class="control-label"></label>
+                            <input asp-for="DataPostagem" class="form-control" />
+                            <span asp-validation-for="DataPostagem" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <input asp-for="Status" class="form-control" type="hidden" value="@Model.Status" />
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Voltar
+                            </a>
+                            <button type="submit" class="btn btn-success">
+                                <i class="bi bi-save"></i> Criar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

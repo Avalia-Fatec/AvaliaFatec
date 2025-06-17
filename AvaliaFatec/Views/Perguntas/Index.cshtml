@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AvaliaFatec.Models.Pergunta>
+
+@{
+    ViewData["Title"] = "Index";
+}
+    
+<h1>Lista de Perguntas</h1>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <a class="btn btn-success" asp-action="Create" asp-route-status="Disponível">
+            <i class="bi bi-plus-circle"></i> Nova Pergunta
+        </a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <table class="table table-hover table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Conteudo)</th>
+                        <th>@Html.DisplayNameFor(model => model.DataPostagem)</th>
+                        <th>@Html.DisplayNameFor(model => model.Status)</th>
+                        <th class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Conteudo)</td>
+                            <td>@Html.DisplayFor(modelItem => item.DataPostagem)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                            <td class="text-center">
+                                <a class="btn btn-warning btn-sm me-1" asp-action="Edit" asp-route-id="@item.Id">
+                                    <i class="bi bi-pencil-square"></i> Editar
+                                </a>
+                                <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">
+                                    <i class="bi bi-trash"></i> Deletar
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

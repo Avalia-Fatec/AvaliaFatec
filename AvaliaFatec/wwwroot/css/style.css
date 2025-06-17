@@ -1,0 +1,53 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #B20000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+    .navbar-nav .nav-link:hover {
+        text-decoration: underline;
+    }
+
+.navbar .text-white {
+    color: white !important;
+    font-size: 0.95rem;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #B20000;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+    footer img {
+        width: 15%;
+    }
+
+.endereco, .contato {
+    color: white;
+    padding-top: 5px;
+    font-size: 14px;
+}
