@@ -1,0 +1,13 @@
+﻿.perfil-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.perfil-btn {
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+}

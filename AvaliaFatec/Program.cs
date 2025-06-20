@@ -1,7 +1,11 @@
+using AvaliaFatec.Data;
 using AvaliaFatec.Models;
+using AvaliaFatec.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using AvaliaFatec.Data;
+using Rotativa.AspNetCore;
+using AvaliaFatec.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AvaliaFatecContext>(options =>
@@ -17,9 +21,16 @@ ContextMongodb.IsSSL = Convert.ToBoolean(builder.Configuration.GetSection("Mongo
 
 builder.Services.AddIdentity<ApplicationUser, ApplicationRole>()
     .AddMongoDbStores<ApplicationUser, ApplicationRole, Guid>(
-    ContextMongodb.ConnectionString, ContextMongodb.Database);
+    ContextMongodb.ConnectionString, ContextMongodb.Database).AddDefaultTokenProviders();
+    
+
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddTransient<EmailService>();
 
 var app = builder.Build();
+
+
+RotativaConfiguration.Setup(app.Environment.WebRootPath, "Rotativa");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -1,0 +1,37 @@
+﻿@model AvaliaFatec.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Meu Perfil";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<h1 class="mb-4">Meu Perfil</h1>
+
+<div class="card perfil-card p-4 shadow-sm">
+    <dl class="row">
+        <dt class="col-sm-4">Nome completo:</dt>
+        <dd class="col-sm-8">@Model.NomeCompleto</dd>
+
+        <dt class="col-sm-4">Email:</dt>
+        <dd class="col-sm-8">@Model.Email</dd>
+
+        <dt class="col-sm-4">Usuário:</dt>
+        <dd class="col-sm-8">@Model.UserName</dd>
+    </dl>
+
+    <div class="text-end mt-3">
+        <a class="btn btn-sm btn-outline-primary perfil-btn" asp-action="Edit" asp-route-id="@Model.Id">
+            <i class="bi bi-pencil-fill"></i> Editar Perfil
+        </a>
+    </div>
+</div>
+
+<a class="d-block mt-3 text-decoration-none text-danger" asp-controller="Account" asp-action="ForgotPassword">
+    <i class="bi bi-lock-fill"></i> Esqueci minha senha!
+</a>

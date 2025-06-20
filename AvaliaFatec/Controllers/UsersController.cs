@@ -43,6 +43,7 @@ namespace AvaliaFatec.Controllers
                 ModelState.AddModelError("ConfirmeSenha", "As senhas não coincidem.");
             }
 
+            //modificar aqui a role
             const string role = "Coordenador";
 
             if (ModelState.IsValid)
@@ -60,7 +61,12 @@ namespace AvaliaFatec.Controllers
                 }
 
                 userName = sb.ToString().Normalize(NormalizationForm.FormC);
-                userName = Regex.Replace(userName, @"[^a-zA-Z0-9\s]", "");
+                userName = Regex.Replace(userName, @"[^a-zA-Z0-9]", "");
+                if (string.IsNullOrWhiteSpace(userName))
+                {
+                    ModelState.AddModelError("NomeCompleto", "Não foi possível gerar um nome de usuário válido com base no nome informado.");
+                    return View(user);
+                }
 
                 var appuser = new ApplicationUser
                 {
@@ -173,47 +179,61 @@ namespace AvaliaFatec.Controllers
                 return NotFound();
             }
 
-            var user = await _context.User
-                .Find(m => m.Id == id).FirstOrDefaultAsync();
+            var user = await _userManager.FindByIdAsync(id.ToString());
             if (user == null)
             {
                 return NotFound();
             }
-            return View(user);
+
+            return View(user); 
         }
+
 
         // POST: Users/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,NomeCompleto,Email")] User user)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,NomeCompleto,Email")] ApplicationUser user)
         {
-            if (id != user.Id)
+            if (id != user.Id) return NotFound();
+
+            var identityUser = await _userManager.FindByIdAsync(user.Id.ToString());
+            if (identityUser == null) return NotFound();
+
+            identityUser.NomeCompleto = user.NomeCompleto;
+            identityUser.Email = user.Email;
+
+            // Atualiza o UserName baseado no NomeCompleto
+            string userName = user.NomeCompleto.Replace(" ", "");
+            var normalizedString = userName.Normalize(NormalizationForm.FormD);
+            StringBuilder sb = new StringBuilder();
+            foreach (char c in normalizedString)
             {
-                return NotFound();
+                if (CharUnicodeInfo.GetUnicodeCategory(c) != UnicodeCategory.NonSpacingMark)
+                {
+                    sb.Append(c);
+                }
             }
 
-            if (ModelState.IsValid)
+            userName = sb.ToString().Normalize(NormalizationForm.FormC);
+            userName = Regex.Replace(userName, @"[^a-zA-Z0-9]", "");
+            identityUser.UserName = userName;
+            identityUser.NormalizedUserName = userName.ToUpperInvariant();
+
+            var result = await _userManager.UpdateAsync(identityUser);
+
+            if (result.Succeeded)
             {
-                try
-                {
-                    await _context.User.ReplaceOneAsync(m => m.Id == user.Id, user);
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!UserExists(user.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                TempData["SuccessMessage"] = "Usuário atualizado com sucesso!";
+                return RedirectToAction(nameof(MeuPerfil));
             }
-            return View(user);
+
+            foreach (var error in result.Errors)
+            {
+                ModelState.AddModelError(string.Empty, error.Description);
+            }
+
+            return View(identityUser);
         }
-
 
         public async Task<IActionResult> Delete(string id)
         {
@@ -262,6 +282,18 @@ namespace AvaliaFatec.Controllers
 
             TempData["SuccessMessage"] = "Usuário excluído com sucesso!";
             return RedirectToAction(nameof(Index));
+        }
+
+        [Authorize]
+        public async Task<IActionResult> MeuPerfil()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return View(user); 
         }
 
         private bool UserExists(Guid id)

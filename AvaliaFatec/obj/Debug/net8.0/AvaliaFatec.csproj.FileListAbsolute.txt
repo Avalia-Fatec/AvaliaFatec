@@ -1400,7 +1400,6 @@ C:\Users\0201392411027\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsof
 C:\Users\0201392411027\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\Users\0201392411027\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\0201392411027\Desktop\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.csproj.CopyComplete
-D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\appsettings.Development.json
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\appsettings.json
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\AvaliaFatec.staticwebassets.runtime.json
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\AvaliaFatec.staticwebassets.endpoints.json
@@ -1674,12 +1673,6 @@ D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\n
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets.build.json
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets.development.json
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets\msbuild.AvaliaFatec.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets\msbuild.AvaliaFatec.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets\msbuild.build.AvaliaFatec.props
-D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AvaliaFatec.props
-D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AvaliaFatec.props
-D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFa.908E70F9.Up2Date
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.dll
@@ -1971,3 +1964,15 @@ E:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\n
 E:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.pdb
 E:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.genruntimeconfig.cache
 E:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\ref\AvaliaFatec.dll
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\MailKit.dll
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\MimeKit.dll
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.MvcApplicationPartsAssemblyInfo.cs

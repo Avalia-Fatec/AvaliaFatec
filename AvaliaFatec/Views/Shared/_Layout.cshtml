@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="~/css/logar.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/avaliacao.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/grafico.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/perfil.css" asp-append-version="true" />
     <script src="~/js/site.js"></script>
 </head>
 <body>
@@ -31,6 +32,10 @@
                     <partial name="_LoginAdmin.cshtml" />
                     @if (User?.Identity?.IsAuthenticated ?? false)
                     {
+                        <li class="nav-item d-flex align-items-center text-white mx-2">
+                            <a class="nav-link text-white" asp-controller="Users" asp-action="MeuPerfil"> Meu Perfil
+                            </a>
+                        </li>
                         <li class="nav-item d-flex align-items-center text-white mx-2">
                             <span>Olá, <strong>@User.Identity.Name</strong></span>
                         </li>
