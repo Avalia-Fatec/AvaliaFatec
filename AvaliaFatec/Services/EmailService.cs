@@ -17,19 +17,29 @@ namespace AvaliaFatec.Services
 
         public async Task SendEmailAsync(string toEmail, string subject, string message)
         {
-            var email = new MimeMessage();
-            email.From.Add(new MailboxAddress(_emailSettings.SenderName, _emailSettings.SenderEmail));
-            email.To.Add(MailboxAddress.Parse(toEmail));
-            email.Subject = subject;
+            try
+            {
+                var email = new MimeMessage();
+                email.From.Add(new MailboxAddress(_emailSettings.SenderName, _emailSettings.SenderEmail));
+                email.To.Add(MailboxAddress.Parse(toEmail));
+                email.Subject = subject;
+                email.Body = new TextPart(TextFormat.Html) { Text = message };
 
-            email.Body = new TextPart(TextFormat.Html) { Text = message };
+                using var smtp = new SmtpClient();
+                await smtp.ConnectAsync(_emailSettings.SmtpServer, _emailSettings.SmtpPort, MailKit.Security.SecureSocketOptions.StartTls);
+                await smtp.AuthenticateAsync(_emailSettings.Username, _emailSettings.Password);
+                await smtp.SendAsync(email);
+                await smtp.DisconnectAsync(true);
 
-            using var smtp = new SmtpClient();
-            await smtp.ConnectAsync(_emailSettings.SmtpServer, _emailSettings.SmtpPort, MailKit.Security.SecureSocketOptions.StartTls);
-            await smtp.AuthenticateAsync(_emailSettings.Username, _emailSettings.Password);
-            await smtp.SendAsync(email);
-            await smtp.DisconnectAsync(true);
+                Console.WriteLine("E-mail enviado com sucesso.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao enviar e-mail: {ex.Message}");
+                throw; // re-lança para o sistema saber que falhou
+            }
         }
+
 
     }
 }

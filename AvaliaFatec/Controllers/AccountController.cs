@@ -126,7 +126,6 @@ namespace AvaliaFatec.Controllers
             }
             return View(model);
         }
-
         public IActionResult ResetPasswordConfirmation()
         {
             return View();

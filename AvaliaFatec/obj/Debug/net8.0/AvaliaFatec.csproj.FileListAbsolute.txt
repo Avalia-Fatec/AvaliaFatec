@@ -276,7 +276,6 @@ C:\Users\Alissa\Desktop\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\refint\AvaliaFa
 C:\Users\Alissa\Desktop\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.pdb
 C:\Users\Alissa\Desktop\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.genruntimeconfig.cache
 C:\Users\Alissa\Desktop\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\ref\AvaliaFatec.dll
-C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\appsettings.json
 C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\AvaliaFatec.staticwebassets.runtime.json
 C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\AvaliaFatec.staticwebassets.endpoints.json
@@ -1976,3 +1975,20 @@ D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\n
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\Fatec\3 Semestre\Projeto Interdisciplinar\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\MailKit.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\MimeKit.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\Rotativa.AspNetCore.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\raiss\OneDrive\Desktop\AvaliaFatec\AvaliaFatec\obj\Debug\net8.0\AvaliaFatec.sourcelink.json

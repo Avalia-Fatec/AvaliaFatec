@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\",
+  "WorkspaceRootPath": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec\\avaliafatec\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\raiss\\onedrive\\desktop\\avaliafatec\\avaliafatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec\\avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\raiss\\onedrive\\desktop\\avaliafatec\\avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\raiss\\onedrive\\desktop\\avaliafatec\\avaliafatec\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\raiss\\onedrive\\desktop\\avaliafatec\\avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec\\avaliafatec\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\raiss\\onedrive\\desktop\\avaliafatec\\avaliafatec\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec\\avaliafatec\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\raiss\\onedrive\\desktop\\avaliafatec\\avaliafatec\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec\\avaliafatec\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|d:\\fatec\\3 semestre\\projeto interdisciplinar\\avaliafatec\\avaliafatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\raiss\\onedrive\\desktop\\avaliafatec\\avaliafatec\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +38,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "AvaliaFatec\\Views\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AvaliaFatec\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T00:46:36.737Z",
+              "WhenOpened": "2025-06-21T14:39:20.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Services\\EmailService.cs",
+              "RelativeToolTip": "AvaliaFatec\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:31:12.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\appsettings.json",
+              "RelativeDocumentMoniker": "AvaliaFatec\\appsettings.json",
+              "ToolTip": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\appsettings.json",
+              "RelativeToolTip": "AvaliaFatec\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-21T14:15:48.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AvaliaFatec\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:39:37.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\AccountController.cs",
               "RelativeToolTip": "AvaliaFatec\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAIwIcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAUwIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T00:45:20.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
               "RelativeToolTip": "AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -77,41 +120,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ResetPasswordConfirmation.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\raiss\\OneDrive\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
               "RelativeToolTip": "AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-19T00:45:03.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ForgotPasswordConfirmation.cshtml",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "RelativeToolTip": "AvaliaFatec\\Views\\Account\\ForgotPasswordConfirmation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T00:44:43.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\appsettings.json",
-              "RelativeDocumentMoniker": "AvaliaFatec\\appsettings.json",
-              "ToolTip": "D:\\Fatec\\3 Semestre\\Projeto Interdisciplinar\\AvaliaFatec\\AvaliaFatec\\appsettings.json",
-              "RelativeToolTip": "AvaliaFatec\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-19T00:26:20.955Z",
               "EditorCaption": ""
             }
           ]
