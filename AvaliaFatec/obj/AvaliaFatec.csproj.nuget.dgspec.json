@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj": {}
+    "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj": {}
   },
   "projects": {
-    "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj": {
+    "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj",
+        "projectUniqueName": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj",
         "projectName": "AvaliaFatec",
-        "projectPath": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj",
-        "packagesPath": "C:\\Users\\0201392411043\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\obj\\",
+        "projectPath": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\AvaliaFatec.csproj",
+        "packagesPath": "C:\\Users\\0201392411027\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\0201392411043\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\0201392411027\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

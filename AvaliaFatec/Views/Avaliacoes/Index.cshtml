@@ -4,6 +4,13 @@
     ViewData["Title"] = "Avaliar Perguntas";
 }
 
+@if (TempData["Mensagem"] != null)
+{
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+        @TempData["Mensagem"]
+    </div>
+}
+
 <h1 class="mb-4">Avaliar Perguntas</h1>
 
 @if (!Model.Any())

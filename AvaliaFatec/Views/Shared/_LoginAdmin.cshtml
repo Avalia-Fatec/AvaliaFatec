@@ -29,3 +29,14 @@
     }
 }
 
+@if (User.Identity.IsAuthenticated)
+{
+    @if (User.IsInRole("Usuario"))
+    {
+        <li class="nav-item">
+            <a class="nav-link" asp-controller="Avaliacoes" asp-action="Index">Avaliar</a>
+        </li>
+
+    }
+}
+

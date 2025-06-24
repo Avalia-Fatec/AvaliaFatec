@@ -50,14 +50,35 @@ namespace AvaliaFatec.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Emoji,PerguntaId")] Avaliacao avaliacao)
         {
-            if (ModelState.IsValid)
+            var userId = _userManager.GetUserId(User);
+
+            if (!Guid.TryParse(userId, out Guid usuarioGuid))
             {
-                avaliacao.Id = Guid.NewGuid();
-                avaliacao.Data = DateTime.Now;
-                await _context.Avaliacao.InsertOneAsync(avaliacao);
+                TempData["Mensagem"] = "Usuário inválido.";
                 return RedirectToAction(nameof(Index));
             }
 
+            var filtro = Builders<Avaliacao>.Filter.And(
+                Builders<Avaliacao>.Filter.Eq(a => a.PerguntaId, avaliacao.PerguntaId),
+                Builders<Avaliacao>.Filter.Eq(a => a.UsuarioId, usuarioGuid),
+                Builders<Avaliacao>.Filter.Gt(a => a.Data, DateTime.Now.AddDays(-7))
+            );
+
+            var avaliacaoExistente = await _context.Avaliacao.Find(filtro).FirstOrDefaultAsync();
+
+            if (avaliacaoExistente != null)
+            {
+                TempData["Mensagem"] = "Você já avaliou essa pergunta nos últimos 7 dias.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            avaliacao.Id = Guid.NewGuid();
+            avaliacao.Data = DateTime.Now;
+            avaliacao.UsuarioId = usuarioGuid;
+
+            await _context.Avaliacao.InsertOneAsync(avaliacao);
+
+            TempData["Mensagem"] = "Avaliação registrada com sucesso!";
             return RedirectToAction(nameof(Index));
         }
 

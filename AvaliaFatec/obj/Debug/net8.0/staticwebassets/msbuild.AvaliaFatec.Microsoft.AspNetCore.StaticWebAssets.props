@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>74zugww7ne</Fingerprint>
-      <Integrity>uaLmXkQKln2YiCl/hkSxy9lkP3TqwVoknaZLMQVcy+k=</Integrity>
+      <Fingerprint>w7vq6icgs3</Fingerprint>
+      <Integrity>dNECzLcDMCCThhSxQszp+gZy2X8UzB4e9y4LNo5bj08=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\avaliacao.css'))</OriginalItemSpec>

@@ -25,9 +25,20 @@ namespace AvaliaFatec.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var usuarios = _userManager.Users.ToList();
-            return View(usuarios);
+            var todosUsuarios = _userManager.Users.ToList();
+            var coordenadores = new List<ApplicationUser>();
+
+            foreach (var usuario in todosUsuarios)
+            {
+                if (await _userManager.IsInRoleAsync(usuario, "Coordenador"))
+                {
+                    coordenadores.Add(usuario);
+                }
+            }
+
+            return View(coordenadores);
         }
+
 
         public IActionResult Create(string role)
         {
@@ -36,15 +47,12 @@ namespace AvaliaFatec.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(User user)
+        public async Task<IActionResult> Create(User user, string role)
         {
             if (user.Senha != user.ConfirmeSenha)
             {
                 ModelState.AddModelError("ConfirmeSenha", "As senhas não coincidem.");
             }
-
-            //modificar aqui a role
-            const string role = "Coordenador";
 
             if (ModelState.IsValid)
             {
@@ -78,11 +86,6 @@ namespace AvaliaFatec.Controllers
                 IdentityResult result = await _userManager.CreateAsync(appuser, user.Senha);
                 if (result.Succeeded)
                 {
-                    if (!await _roleManager.RoleExistsAsync(role))
-                    {
-                        await _roleManager.CreateAsync(new ApplicationRole { Name = role });
-                    }
-
                     await _userManager.AddToRoleAsync(appuser, role);
 
                     TempData["SuccessMessage"] = "Usuário cadastrado com sucesso!";
@@ -98,14 +101,14 @@ namespace AvaliaFatec.Controllers
             return View(user);
         }
 
-        [Authorize(Roles = "Administrador")]
+        //[Authorize(Roles = "Administrador")]
         public IActionResult CreateRole()
         {
             return View();
         }
 
         [HttpPost]
-        [Authorize(Roles = "Administrador")]
+        //[Authorize(Roles = "Administrador")]
         public async Task<IActionResult> CreateRole(UserRole userRole)
         {
             if (ModelState.IsValid)

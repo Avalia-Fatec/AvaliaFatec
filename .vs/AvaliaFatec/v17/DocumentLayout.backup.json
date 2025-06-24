@@ -1,34 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\",
+  "WorkspaceRootPath": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411043\\desktop\\avaliafatec\\avaliafatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411043\\desktop\\avaliafatec\\avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411043\\desktop\\avaliafatec\\avaliafatec\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411043\\desktop\\avaliafatec\\avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411043\\desktop\\avaliafatec\\avaliafatec\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411043\\desktop\\avaliafatec\\avaliafatec\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411043\\desktop\\avaliafatec\\avaliafatec\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411027\\desktop\\avaliafatec\\avaliafatec\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411027\\desktop\\avaliafatec\\avaliafatec\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411027\\desktop\\avaliafatec\\avaliafatec\\views\\shared\\_loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\shared\\_loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411027\\desktop\\avaliafatec\\avaliafatec\\wwwroot\\css\\avaliacao.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\wwwroot\\css\\avaliacao.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411027\\desktop\\avaliafatec\\avaliafatec\\views\\avaliacoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\views\\avaliacoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|c:\\users\\0201392411027\\desktop\\avaliafatec\\avaliafatec\\controllers\\avaliacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9816B46E-BFC2-4EF7-BAD8-0EF4C0A3B05F}|AvaliaFatec\\AvaliaFatec.csproj|solutionrelative:avaliafatec\\controllers\\avaliacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,92 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "AvaliaFatec\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "AvaliaFatec\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-21T14:39:20.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Services\\EmailService.cs",
-              "RelativeToolTip": "AvaliaFatec\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAUwB4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T14:31:12.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\appsettings.json",
-              "RelativeDocumentMoniker": "AvaliaFatec\\appsettings.json",
-              "ToolTip": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\appsettings.json",
-              "RelativeToolTip": "AvaliaFatec\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-21T14:15:48.994Z",
+              "WhenOpened": "2025-06-24T15:09:05.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\UsersController.cs",
               "RelativeToolTip": "AvaliaFatec\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDAAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T13:39:37.661Z"
+              "WhenOpened": "2025-06-24T15:07:08.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Shared\\_LoginAdmin.cshtml",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Shared\\_LoginAdmin.cshtml",
+              "ToolTip": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Shared\\_LoginAdmin.cshtml",
+              "RelativeToolTip": "AvaliaFatec\\Views\\Shared\\_LoginAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T15:07:39.609Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "AvaliaFatec\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAUwIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T00:45:20.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "AvaliaFatec\\Views\\Account\\ResetPassword.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T00:45:06.411Z"
+              "Title": "avaliacao.css",
+              "DocumentMoniker": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\wwwroot\\css\\avaliacao.css",
+              "RelativeDocumentMoniker": "AvaliaFatec\\wwwroot\\css\\avaliacao.css",
+              "ToolTip": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\wwwroot\\css\\avaliacao.css",
+              "RelativeToolTip": "AvaliaFatec\\wwwroot\\css\\avaliacao.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-24T14:59:43.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ResetPasswordConfirmation.cshtml",
-              "DocumentMoniker": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "ToolTip": "C:\\Users\\0201392411043\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "RelativeToolTip": "AvaliaFatec\\Views\\Account\\ResetPasswordConfirmation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Avaliacoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Views\\Avaliacoes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Views\\Avaliacoes\\Index.cshtml",
+              "RelativeToolTip": "AvaliaFatec\\Views\\Avaliacoes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-19T00:45:03.244Z"
+              "WhenOpened": "2025-06-24T13:43:42.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AvaliacoesController.cs",
+              "DocumentMoniker": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\AvaliacoesController.cs",
+              "RelativeDocumentMoniker": "AvaliaFatec\\Controllers\\AvaliacoesController.cs",
+              "ToolTip": "C:\\Users\\0201392411027\\Desktop\\AvaliaFatec\\AvaliaFatec\\Controllers\\AvaliacoesController.cs",
+              "RelativeToolTip": "AvaliaFatec\\Controllers\\AvaliacoesController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:43:10.05Z",
+              "EditorCaption": ""
             }
           ]
         }
